@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+html,
+body {
+    font-family: 'Roboto', sans-serif !important;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    background: #141414;
+}
+
+.showcase {
+    background: url(../image/netflix-bg.jpg) no-repeat center/cover;
+    height: 93vh;
+    padding: 12px;
+}
+
+.showcase::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+
+.showcase-top {
+    height: 90px;
+    z-index: 2;
+}
+
+.showcase-top .img {
+    background: url(../image/netflix-logo.png) no-repeat center/contain;
+    width: 170px;
+    height: 45px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signin-btn {
+    border-radius: 5px;
+    padding: 6px 25px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.btn-lg {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 500;
+}
+
+.showcase-content {
+    margin-top: 9rem;
+    z-index: 3;
+}
+
+.showcase-content h1 {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+    color: #fff;
+}
+
+.showcase-content p {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 2rem;
+}
+
+.media-device .nav-tabs {
+    height: 165px;
+    background: #141414;
+}
+
+.media-device .nav-tabs .nav-link {
+    width: 300px;
+    border: 0;
+    color: #999;
+    padding: 24px 0 0;
+}
+
+.media-device .nav-tabs .nav-link.active {
+    border-bottom: 4px solid red;
+    background: #141414;
+    color: #999;
+}
+
+.media-device .nav-tabs .nav-link:hover {
+    color: #fff!important;
+}
+
+.phone-btn,
+.tablet-btn,
+.tag-btn {
+    display: block;
+    width: 68px;
+    height: 48px;
+    margin: auto;
+}
+
+.media-device .tab-content {
+    background-color: #141414;
+}
+
+.media-device .phone-btn {
+    background: url(../image/door-open.svg) no-repeat center/contain;
+}
+
+.media-device .nav-tabs .nav-link:hover .phone-btn {
+    background: url(../image/door-open-hover.svg) no-repeat center/contain;
+}
+
+.media-device .tablet-btn {
+    background: url(../image/tablet-screen.svg) no-repeat center/contain;
+}
+
+.media-device .nav-tabs .nav-link:hover .tablet-btn {
+    background: url(../image/tablet-screen-hover.svg) no-repeat center/contain;
+}
+
+.media-device .tag-btn {
+    background: url(../image/tags.svg) no-repeat center/contain;
+}
+
+.media-device .nav-tabs .nav-link:hover .tag-btn {
+    background: url(../image/tags-hover.svg) no-repeat center/contain;
+}
+
+.media-dialogue {
+    display: block;
+    padding: 8px 0 0;
+    margin: 8px 0;
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.content-wrapper {
+    padding: 48px 0;
+}
+
+.btn-md {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+
+.ad-words {
+    color: #fff;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.sub-cancel {
+    width: 422px;
+    height: 300px;
+}
+
+.tab-2 img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.ad-device {
+    font-size: 19px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.ad-word {
+    font-size: 16px;
+    line-height: 20px;
+    color: #999;
+}
+
+.ad-table th {
+font-size: 16px;
+line-height: 19px;
+font-weight: 500;
+color: #fff;
+padding: 13px;
+background: none;
+}
+
+.ad-table tr td {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #999;
+    padding: 13px 20px;
+    background: none;
+}
+
+.ad-table tbody tr:nth-child(odd) {
+    background: #222;
+  } 
+
+.ad-table tr td:not(:first-child) {
+    text-align: center;
+}
+
+.ad-table td.check {
+    background: url(../image/check.svg) no-repeat center;
+    background-size: 25px 25px;
+}
+
+.ad-table td.cross {
+    background: url(../image/cross.svg) no-repeat center;
+    background-size: 25px 25px;
+}
+
+.footer-wrapper {
+    margin: 16px 0;
+}
+
+.footer-wrapper p  {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    color: #999;
+}
+
+.footer-wrapper .contact {
+    margin: 8px 0 24px;    
+}
+
