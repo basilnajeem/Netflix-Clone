@@ -22,4 +22,4 @@ It serves as a starting point for understanding HTML and CSS and Bootstrap conce
 
 Feel free to explore the code and make modifications to enhance your learning experience. If you have any questions or suggestions, please don't hesitate to reach out.
 
-Happy coding!
+Happy coding 😊 
