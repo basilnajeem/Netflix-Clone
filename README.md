@@ -14,7 +14,7 @@ Please note that this version may not include all the features of the original N
 
 To view the Netflix clone, follow these steps:
 
-1. Clone the repository to your local machine using the command: `git clone https://github.com/your-username/netflix-clone.git`
+1. Clone the repository to your local machine using the command: `git clone https://github.com/basilnajeem/Netflix-Clone.git`
 2. Open the `index.html` file in your preferred web browser.
 
 Please keep in mind that this is a basic version created for learning purposes and may not provide the full functionality of a complete Netflix clone. 
