@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="icon" href="./image/netflix_logo_icon_170919.svg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+</head>
+
+<body>
+
+    <header class="showcase position-relative">
+        <div class="container">
+            <div class="showcase-top position-relative">
+                <div class="img"></div>
+                <a href="#" class="btn btn-danger signin-btn">Sign In</a>
+            </div>
+            <div
+                class="showcase-content d-flex flex-column align-items-center justify-content-center position-relative">
+                <h1>See what's next</h1>
+                <p>Watch anywhere. Cancel Anytime</p>
+                <button type="button" class="btn btn-danger btn-lg py-3 px-5">Watch Free For 30 Days</button>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="media-device">
+                <nav>
+                    <div class="nav nav-tabs gap-2 justify-content-center border-bottom-0" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="nav-phone-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-phone" type="button" role="tab" aria-controls="nav-phone"
+                            aria-selected="true"><span class="phone-btn"></span><span class="media-dialogue">Cancel at
+                                any time</span></button>
+
+                        <button class="nav-link" id="nav-tablet-tab" data-bs-toggle="tab" data-bs-target="#nav-tablet"
+                            type="button" role="tab" aria-controls="nav-tablet" aria-selected="false"> <span
+                                class="tablet-btn"></span><span class="media-dialogue">Watch anywhere</span></button>
+
+                        <button class="nav-link" id="nav-tags-tab" data-bs-toggle="tab" data-bs-target="#nav-tags"
+                            type="button" role="tab" aria-controls="nav-tags" aria-selected="false"><span
+                                class="tag-btn"></span><span class="media-dialogue">Pick your price </span></button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-phone" role="tabpanel"
+                        aria-labelledby="nav-phone-tab" tabindex="0">
+                        <div class="content-wrapper">
+                            <div class="d-flex align-items-center">
+                                <div class="">
+                                    <p class="ad-words mt-2 mb-3">If you decide Netflix isn't for you - no problem. No
+                                        commitment.
+                                        Cancel online anytime.</p>
+                                    <button type="button" class="btn btn-danger btn-md">Watch Free For 30 Days</button>
+                                </div>
+                                <div class="">
+                                    <img src="./image/tab-content-1.png" alt="" class="sub-cancel">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd one -->
+
+                    <div class="tab-pane fade" id="nav-tablet" role="tabpanel" aria-labelledby="nav-tablet-tab"
+                        tabindex="0">
+
+                        <div class="content-wrapper">
+                            <div class="d-flex justify-content-center">
+                                <p class="ad-words mt-2 mb-3">Watch TV shows and movies anytime, anywhere — personalized
+                                    for you.
+                                </p>
+                                <button type="button" class="btn btn-danger btn-md ms-4">Watch Free For 30 Days</button>
+                            </div>
+
+                            <div class="row tab-2">
+                                <div class="col-md-4"><img src="./image/tab-content-2-1.png" alt="">
+                                    <p class="mt-2 mb-4  text-center ad-device">Watch on your TV</p>
+                                    <p class="text-center ad-word">Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                                        Blu-ray players and more.</p>
+                                </div>
+                                <div class="col-md-4"><img src="./image/tab-content-2-2.png" alt="">
+                                    <p class="mt-2 mb-4  text-center ad-device">Watch instantly or download for later
+                                    </p>
+                                    <p class="text-center ad-word">Available on phone and tablet, wherever you go.</p>
+                                </div>
+                                <div class="col-md-4"><img src="./image/tab-content-2-3.png" alt="">
+                                    <p class="mt-2 mb-4  text-center ad-device">Use any computer</p>
+                                    <p class="text-center ad-word">Watch right on Netflix.com.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd one -->
+
+                    <div class="tab-pane fade" id="nav-tags" role="tabpanel" aria-labelledby="nav-tags-tab"
+                        tabindex="0">
+                        <div class="text-center mt-5">
+                            <p class="ad-words">Choose one plan and watch everything on Netflix.</p>
+                            <button type="button" class="btn btn-danger btn-md ms-4">Watch Free For 30 Days</button>
+                        </div>
+                        <table class="table table-borderless ad-table mt-4 ">
+                            <thead>
+                                <tr class="text-center">
+                                    <th></th>
+                                    <th>BASIC</th>
+                                    <th>STANDARD</th>
+                                    <th>PREMIUM</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>Monthly price after free month ends on 6/19/19</td>
+                                    <td>$8.99</td>
+                                    <td>$12.99</td>
+                                    <td>$15.99</td>
+                                </tr>
+                                <tr>
+
+                                    <td>HD Available</td>
+                                    <td class="cross"></td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                </tr>
+                                <tr>
+                                    <td>Ultra HD Available</td>
+                                    <td class="cross"></td>
+                                    <td class="cross"></td>
+                                    <td class="check"></td>
+                                </tr>
+                                <tr>
+                                    <td>Screens you can watch on at the same time</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <td>Watch on your laptop, TV, phone and tablet</td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                </tr>
+                                <tr>
+                                    <td>Unlimited movies and TV shows </td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                </tr>
+                                <tr>
+                                    <td>Cancel anytime</td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                </tr>
+                                <tr>
+                                    <td>First month free</td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                    <td class="check"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="container">
+                <p class="contact">Questions? Call 1-866-579-7172</p>
+                <div class="row footer-list">
+                    <div class="col-md-3">
+                        <p>FAQ</p>
+                        <p>Investor Relations</p>
+                        <p>Ways To Watch</p>
+                        <p>Corporate Information</p>
+                        <p>Netflix Originals</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Help Center</p>
+                        <p>Jobs</p>
+                        <p>Terms Of Use</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Account</p>
+                        <p>Redeem Gift Cards</p>
+                        <p>Privacy</p>
+                        <p>Speed Test</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p>Media Center</p>
+                        <p>Buy Gift Cards</p>
+                        <p>Cookie Preferences</p>
+                        <p>Legal Notices</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Popper JS-->
+    <script src="./bootstrap/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>
