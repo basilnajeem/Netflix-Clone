@@ -23,3 +23,9 @@ It serves as a starting point for understanding HTML and CSS and Bootstrap conce
 Feel free to explore the code and make modifications to enhance your learning experience. If you have any questions or suggestions, please don't hesitate to reach out.
 
 Happy coding 😊 
+
+
+![sample](https://github.com/basilnajeem/Netflix-Clone/assets/135796842/17b2156d-397b-4b12-91b7-883d97b8cc38)
+
+![sample1](https://github.com/basilnajeem/Netflix-Clone/assets/135796842/73d19d14-d96c-4e55-8002-9a4f9baf922b)
+
